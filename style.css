@@ -1,58 +1,68 @@
 header{
+    overflow: auto;
     margin: 1%;
     border-style: solid;
-    background-color: '#ebebeb';
+    background: #ebebeb;
 }
 
 body{
-font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-color: '#777';
-background: '#777';
-width: '960px';
-font-size: '18px';
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: '960px';
+    font-size: '18px';
 }
 
 ul {
+    overflow: auto;
     margin: 1%;
     border-style: solid;
     list-style-type: none;
     padding: 0;
-    background-color: '#ebebeb';
+    background: #ebebeb;
 }
 
 h1{
-    color: '#777';
+    overflow: auto;
+    color: #777;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 p{
-    background: '#ebebeb';
+    overflow: auto;
+    background: #ebebeb;
 }
 .section{
+    overflow: auto;
     margin: 1%;
     border-style: solid;
     float: left;
     text-align: center;
     width: 495px;
-    background-color: '#ebebeb';
+    background: #ebebeb;
 }
 .article{
+    overflow: auto;
     margin: 1%;
     border-style: solid;
-    color: '#ebebeb';
-    background: '#777';
+    color: #ebebeb;
+    background: #777;
 }
 .aside{
+    overflow: auto;
     margin: 1%;
     text-align: center;
     border-style: solid;
-    background-color: '#ebebeb';
+    background: #ebebeb;
 }
 .footer{
+    overflow: auto;
     margin: 1%;
     border-style: solid;
     position:absolute;
     bottom:0;
     height: 50px;
     padding: 0 48.25% 0 48.25%;
-    background-color: '#ebebeb';
+    background: #ebebeb;
 }

@@ -1,68 +1,68 @@
 header{
-    overflow: auto;
-    margin: 1%;
-    border-style: solid;
+    margin: 2%;
     background: #ebebeb;
+    text-align: center;
+    height: 100px;
 }
 
 body{
-    overflow: auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: '960px';
-    font-size: '18px';
+    width: 960px;
+    font-size: 18px;
 }
 
 ul {
-    overflow: auto;
-    margin: 1%;
-    border-style: solid;
+    height: 100px;
+    margin: 2%;
     list-style-type: none;
     padding: 0;
     background: #ebebeb;
 }
 
+.container{
+    margin: 1%;
+    width: 960px;
+}
+
+.section{
+    margin: 1%;
+    text-align: center;
+    width: 495px;
+    height: 245px;
+    background: #ebebeb;
+    float: left;
+}
+
+.aside{
+    margin: 1% 3%;
+    width: 385px;
+    background: #ebebeb;
+    float: left;
+    height: 245px;
+}
+
 h1{
-    overflow: auto;
     color: #777;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #ebebeb;
 }
 
 p{
-    overflow: auto;
+    color: #777;
     background: #ebebeb;
 }
-.section{
-    overflow: auto;
-    margin: 1%;
-    border-style: solid;
-    float: left;
-    text-align: center;
-    width: 495px;
-    background: #ebebeb;
-}
+
 .article{
-    overflow: auto;
-    margin: 1%;
-    border-style: solid;
+    margin: 2%;
     color: #ebebeb;
     background: #777;
 }
-.aside{
-    overflow: auto;
-    margin: 1%;
-    text-align: center;
-    border-style: solid;
-    background: #ebebeb;
-}
+
 .footer{
-    overflow: auto;
-    margin: 1%;
-    border-style: solid;
-    position:absolute;
-    bottom:0;
-    height: 50px;
-    padding: 0 48.25% 0 48.25%;
+    margin: 2%;
+    float: left;
+    width: 920px;
+    height: 100px;
     background: #ebebeb;
 }
